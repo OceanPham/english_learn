@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure footer stays at bottom */
+}
+
+.mainContent {
+  flex-grow: 1; /* Allow main content to take available space */
+  padding: 2rem; /* Add some padding */
+  background-color: #f8f9fa; /* Light background for content area */
+} 
